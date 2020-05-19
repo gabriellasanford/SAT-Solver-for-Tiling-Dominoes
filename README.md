@@ -18,11 +18,14 @@ Input: 3,5,(1,1),(1,5),(2,4)
 
 
 Output will be a printed out string of the DIMACS format SAT encodings:
+
 ![Python Program Output Sample](https://github.com/gabriellasanford/SAT-Solver-for-Tiling-Dominoes/blob/master/Images/gif.gif)
 
 In order to determine if a solution is SATisfiable, I then take the output that was printed out from the python program and input it into an online SAT solver:
-![DIMACS SAT SOLVER](https://github.com/gabriellasanford/SAT-Solver-for-Tiling-Dominoes/blob/master/Images/satsolver.gif)
 
+![DIMACS SAT SOLVER](https://github.com/gabriellasanford/SAT-Solver-for-Tiling-Dominoes/blob/master/Images/satsolver.gif)
+ 
+The top right corner will read UNSAT (as in the example) if the problem is unsatisfiable for the given input, and will return SAT if it is satisfiable and will also return the clauses found to be true and false at the bottom of the screen.
 
 # Special Thanks
 @msoos for his incredible online SAT solver, which can be found here: https://msoos.github.io/cryptominisat_web/
