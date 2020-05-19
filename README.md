@@ -19,7 +19,7 @@ Input: 3,5,(1,1),(1,5),(2,4)
 
 Output will be a printed out string of the DIMACS format SAT encodings:
 
-[![Demo CountPages alpha](https://gifs.com/gif/dominoes-sat-jZWZq4)]
+![Python Program Output Sample](https://gifs.com/gif/dominoes-sat-jZWZq4)
 
 ## Special Thanks
 @msoos for his incredible online SAT solver, which can be found here: https://msoos.github.io/cryptominisat_web/
